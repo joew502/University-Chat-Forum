@@ -1,0 +1,82 @@
+#create-block-container{
+    margin: 8px;
+    margin-top: 0;
+    border-color: #000000;
+    color: #000000;
+}
+
+#create-block-container *{
+    border-color: inherit;
+    color: inherit;
+}
+
+#CBF-submit{
+    color: #ffffff;
+    border-width: 1px;
+    border-style: solid;
+}
+
+
+.CBF-container{
+    position: relative;
+    top: 1vw;
+    padding: 0.5vw;
+    padding-top: 0;
+    font-size: 2vw;
+}
+.CBF-body{
+    height: 45vw;
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    outline: none;
+    display: block;
+    resize: none;
+    font-size: 2vw;
+    margin-bottom: 5px;
+}
+.CBF-title{
+    border-width: 1px;
+    border-style: solid;
+}
+
+.CBF-failure{
+    position: relative;
+    text-align: center;
+    top: 1vw;
+    right: 0;
+    border-width: 2px;
+    border-color: #c81919;
+    background-color: #d07171;
+    border-style: solid;
+    border-radius: 1vw;
+    color: #c81919;
+    font-size: 3vw;
+    padding: 1vw;
+    width: auto;
+}
+
+.CBF-table{
+    font-size: 2vw;
+}
+.CBF-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.CBF-submit{
+    padding: 1vw;
+    color: white;
+    background-color: var(--colour);
+    border-style: none;
+    width: 100%;
+}
+@media screen and (max-width: 450px) {
+    .CBF-failure{font-size: 4vw;}
+    .CBF-container{font-size: 4vw;}
+    .CBF-table{font-size: 4vw;}
+    .CBF-body{
+        font-size: 4vw;
+        height: 90vw;
+    }
+}

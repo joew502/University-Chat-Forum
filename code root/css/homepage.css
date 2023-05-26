@@ -1,0 +1,39 @@
+.HP-main-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 8vw;
+}
+.HP-main{
+    margin: auto;
+    padding: 2vw;
+}
+
+.HP-academic-hall-link{
+    border-width: 0;
+    border-style: none;
+    text-decoration: none;
+    padding: 2vw;
+    font-size: 4vw;
+    text-align: center;
+    color: white;
+    background-color: #c81919;
+}
+.HP-society-hall-link{
+    border-width: 0;
+    border-style: none;
+    text-decoration: none;
+    padding: 2vw;
+    font-size: 4vw;
+    text-align: center;
+    color: white;
+    background-color: #e7a72a;
+}
+.HP-community-hall-link{
+    border-width: 0;
+    text-decoration: none;
+    padding: 2vw;
+    font-size: 4vw;
+    text-align: center;
+    color: white;
+    background-color: #1a8ee7;
+}

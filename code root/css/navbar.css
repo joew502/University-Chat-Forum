@@ -1,0 +1,126 @@
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #ffffff;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    left: 0;
+    width: 100%; /* Full width */
+    height: 5vw;
+    border-bottom: #2b6aa9;
+    border-bottom-width: 1px;
+    font-size: 2vw;
+    padding: 1vw;
+    z-index: 1000;
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: #fff6f8;
+    text-align: center;
+    padding: 1vw 1vw;
+    text-decoration: none;
+}
+
+/*The university of exeter logo*/
+.navbar-logo{
+    top: 1vw;
+    width: auto;
+    position: fixed;
+    left:48%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height:4vw;
+}
+/*The level display*/
+.navbar-name{
+    color: #2b6aa9;
+    max-width: 20vw;
+    overflow: hidden;
+}
+.navbar-name-wrapper{
+    top: 0;
+    right: 7vw;
+    height: 5vw;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Profile box*/
+.navbar-level-wrapper {
+    cursor: pointer;
+    right: 0;
+    top: 0;
+    padding: 1vw;
+    position: fixed;
+    text-align: center;
+    background-color: #2b6aa9;
+    width: 3.5vw;
+    height: 3.5vw;
+    text-overflow: clip;
+    overflow: hidden;
+    vertical-align: center;
+    justify-content: center;
+    border-radius: 2.75vw;
+    display: flex;
+    flex-direction: column;
+}
+.navbar-level {
+    color: white;
+}
+
+/* Login button */
+.NB-login {
+    background-color: #2b6aa9;
+    color: white;
+    position: fixed;
+    right: 0;
+    top: 0;
+    padding: 1vw;
+}
+.NB-login :hover {
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/*The drop down under profile */
+.NB-dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+
+.NB-dropdown-content {
+    display: none;
+    position: fixed;
+    right: 0;
+    top: 5vw;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.NB-dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+/*Style the dropdown is set to when it actually is needed*/
+.NB-show {
+    display: block;
+}
+
+@media screen and (max-width: 450px) {
+    .navbar {font-size: 4vw}
+    .navbar-logo{visibility: hidden}
+    .navbar-level{font-size: 4vw}
+}

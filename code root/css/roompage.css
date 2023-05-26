@@ -1,0 +1,117 @@
+#RP_backbutton {
+    margin-top: 7vw;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#RP_main{
+    display:block;
+    border-style: solid;
+    border-width: 10px;
+    margin: 8px;
+    margin-top: 1vw;
+    border-color: var(--bcolour);
+    border-bottom-width: 0px;
+}
+
+body{
+    margin: 0px;
+}
+
+#RP_main>div>.RP_room{
+    position: relative;
+    right: 1px;
+    width: calc(100% + 1px);
+    border-style: solid;
+    border-width: 0px;
+    border-bottom-width: 10px;
+    border-color: var(--bcolour);
+}
+
+.RP_nested_comments>.RP_room{
+    width: 100%;
+    border-style: solid;
+    border-width: 0px;
+    border-left-width: 1px;
+    border-color: #676767;
+    padding-right: 0px;
+}
+
+.RP_room{
+    box-sizing: border-box;
+    margin: 0px 0px;
+    padding: 5px 5px;
+}
+.RP_room>div:nth-child(1){
+    display: flex;
+}
+
+.RP_roomInfo {
+    flex-grow: 1;
+    flex-basis: 50%;
+    align-self: center;
+    justify-self: right;
+}
+
+.RP_Votes{
+    flex-grow: 0;
+    flex-basis: 10%;
+    align-self: center;
+    justify-self: right;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.RP_Votes>Button{
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-self: center;
+    justify-self: center;
+}
+.RP_Votes>p{
+    align-self: center;
+    justify-self: center;
+}
+.RP_Votes>Button>img{
+    width: 20px;
+    height: 20px;
+}
+.RP_comment{
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.RP_voted{
+    filter: saturate(8);
+}
+
+.RP_time{
+    font-size: 10px;
+    padding-bottom: 10px;
+}
+
+.RP_title{
+    font-weight: bold;
+}
+
+#RP_main p{
+    margin: 5px;
+}
+
+.RP_roomInfo>p{
+    overflow-wrap: anywhere;
+}
+
+.RP_back{
+    color: black;
+    padding: 1vw;
+    top: 11vw;
+    right: 0;
+    overflow-wrap: anywhere;
+}
+
+.RP_path>a{
+    color: inherit;
+}

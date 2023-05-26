@@ -1,0 +1,106 @@
+#RIL_pagecontent{
+    margin-top: 11vw;
+}
+
+#RLI_scroll{
+    border-style: solid;
+    border-width: 10px;
+    margin: 8px;
+    border-color: var(--bcolour);
+    border-bottom-width: 0px;
+}
+
+body{
+    margin: 0px;
+}
+
+#RLI_scroll>.RLI_room{
+    position: relative;
+    right: 1px;
+    width: calc(100% + 1px);
+    border-style: solid;
+    border-width: 0px;
+    border-bottom-width: 10px;
+    border-color: var(--bcolour);
+}
+
+.RLI_room{
+    box-sizing: border-box;
+    margin: 0px 0px;
+    padding: 5px 5px;
+}
+.RLI_room>div{
+    display: flex;
+}
+
+.RLI_roomInfo {
+    flex-grow: 1;
+    flex-basis: 50%;
+    align-self: center;
+    justify-self: right;
+}
+
+.RLI_Votes{
+    flex-grow: 0;
+    flex-basis: 10%;
+    align-self: center;
+    justify-self: right;
+    display: flex;
+    flex-direction: column;
+}
+.RLI_Votes>Button{
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-self: center;
+    justify-self: center;
+}
+.RLI_Votes>p{
+    align-self: center;
+    justify-self: center;
+}
+.RLI_Votes>Button>img{
+    width: 20px;
+    height: 20px;
+}
+.RLI_comment{
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.RLI_time{
+    font-size: 10px;
+    padding-bottom: 10px;
+}
+
+.RLI_title{
+    font-weight: bold;
+}
+
+.RLI_voted{
+    filter: saturate(8);
+}
+
+#RLI_main p{
+    margin: 5px;
+}
+
+.RLI_roomInfo>p{
+    overflow-wrap: anywhere;
+    margin: 10px 0px;
+}
+
+.RLI_roomInfo>p.RLI_path{
+    margin-top: 0px;
+}
+
+.RLI_path>a{
+    color: inherit;
+}
+
+#RLI_out_of_rooms{
+    text-align: center;
+    font-style: italic;
+    text-decoration-color: #2b6aa9;
+}

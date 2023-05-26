@@ -1,0 +1,70 @@
+.HB-main{
+    padding: 8px;
+    height: 11vw;
+    margin: 8px;
+    background-color: var(--colour);
+    position: relative;
+    text-overflow: clip;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.HB-buttons-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    position: absolute;
+    bottom: 0;
+}
+.HB-button{
+    color: white;
+    font-size: 1.5vw;
+    background-color: var(--hcolour);
+    border-style: none;
+    transition: background-color 0.5s ease,color 0.5s ease;
+}
+
+.HB-button:hover{
+    color: var(--hcolour);
+    background-color: white;
+}
+
+.HB-hall-title{
+    color: white;
+    font-size: 2vw;
+    position: absolute;
+}
+.HB-description{
+    color: white;
+    font-size: 2vw;
+    position: absolute;
+    top: 6vw;
+}
+
+.HB-back{
+    color: white;
+    font-size: 3vw;
+    position: absolute;
+    padding: 1vw;
+    top: 0;
+    right: 0;
+}
+
+.HB-hidden{
+    display: none;
+}
+
+
+@media screen and (max-width: 450px) {
+    .HB-button{font-size: 4vw;}
+    .HB-hall{font-size: 0;}
+    .HB-member-count{font-size: 4vw; top: 4.5vw;}
+    .HB-block-title{font-size: 5vw;}
+    .HB-back{font-size: 4.5vw}
+    .HB-hall-title{font-size: 6vw}
+    .HB-description{
+        font-size: 5vw;
+        margin-top: 3vw;
+    }
+    .HB-main{height: 17vw}
+}

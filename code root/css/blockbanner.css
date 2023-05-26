@@ -1,0 +1,81 @@
+.BB-main{
+    padding: 8px;
+    height: 11vw;
+    margin: 8px;
+    background-color: var(--colour);
+    position: relative;
+    text-overflow: clip;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.BB-buttons-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    position: absolute;
+    bottom: 0;
+}
+.BB-menu-button{
+    color: white;
+    font-size: 1.5vw;
+    background-color: var(--hcolour);
+    border-style: none;
+    transition: background-color 0.5s ease,color 0.5s ease;
+}
+.BB-menu-button:hover{
+    color: var(--hcolour);
+    background-color: white;
+}
+
+.BB-subscribe{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.BB-block-title{
+    color: white;
+    font-size: 4vw;
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+    max-width: 60vw;
+}
+.BB-member-count{
+    color: white;
+    font-size: 2vw;
+    position: absolute;
+    top: 4vw;
+}
+.BB-hall{
+    color: white;
+    font-size: 2vw;
+    position: absolute;
+    top: 6vw;
+}
+.BB-back{
+    color: white;
+    font-size: 3vw;
+    position: absolute;
+    padding: 1vw;
+    top: 0;
+    right: 0;
+}
+.BB-hidden{
+    display: none;
+}
+@media screen and (max-width: 450px) {
+    .BB-menu-button{font-size: 3vw;}
+    .BB-hall{font-size: 0;}
+    .BB-member-count{
+        font-size: 5vw;
+        top: 7vw;
+    }
+    .BB-block-title{font-size: 5vw;}
+    .BB-back{font-size: 4.5vw;}
+    .BB-block-title{
+        max-width: 50vw;
+        font-size: 6vw;
+    }
+    .BB-main{height: 17vw;}
+}

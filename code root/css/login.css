@@ -1,0 +1,24 @@
+.login-content-table{
+    border-style: solid;
+    border-color: #2b6aa9;
+    border-width: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 3vw;
+    color: #2b6aa9;
+    padding: 1vw;
+}
+
+.login-input-field{
+    font-size: 3vw;
+    color: #2b6aa9;
+    border-color: #2b6aa9;
+    border-width: 1px;
+}
+
+.login-input-button{
+    font-size: 3vw;
+    color: white;
+    background-color: #2b6aa9;
+    border-style: none;
+}

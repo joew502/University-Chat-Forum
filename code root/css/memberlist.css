@@ -1,0 +1,39 @@
+.MBL-main{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+    position: relative;
+    top: 1vw;
+    padding: 1vw;
+    font-size: 2vw;
+    margin: 8px;
+}
+.MBL-wrappers{
+    padding: 1vw;
+    background-color: white;
+    color: #000000;
+}
+.MBL-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.MBL-submit{
+    padding: 1vw;
+    color: white;
+    background-color: #2b6aa9;
+    border-style: none;
+    width: 100%;
+}
+.MBL-make-admin-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+.MBL-submit-wrapper{
+    padding: 1vw;
+    colour:white
+}
+@media screen and (max-width: 450px) {
+    .MBL-main{font-size: 4vw;}
+}

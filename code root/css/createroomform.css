@@ -1,0 +1,85 @@
+#create-room-container{
+    margin: 8px;
+    margin-top: 0;
+    border-color: #000000;
+    color: #000000;
+}
+
+#create-room-container *{
+    border-color: inherit;
+    color: inherit;
+}
+
+#CRF-submit{
+    color: white;
+    border-width: 1px;
+    border-style: solid;
+}
+
+#CRF-create-room-title{
+    font-size: 2vw;
+}
+
+.CRF-container{
+    position: relative;
+    top: 1vw;
+    padding: 0.5vw;
+    font-size: 2vw;
+}
+.CRF-body{
+    height: 30vw;
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    outline: none;
+    display: block;
+    resize: none;
+    font-size: 2vw;
+    margin-bottom: 5px;
+}
+.CRF-title{
+    border-width: 1px;
+    border-style: solid;
+}
+
+.CRF-failure{
+    position: relative;
+    text-align: center;
+    top: 1vw;
+    right: 0;
+    border-width: 2px;
+    border-color: #c81919;
+    background-color: #d07171;
+    border-style: solid;
+    border-radius: 1vw;
+    color: #c81919;
+    font-size: 3vw;
+    padding: 1vw;
+    width: auto;
+}
+
+.CRF-table{
+    font-size: 2vw;
+}
+.CRF-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.CRF-submit{
+    padding: 1vw;
+    color: white;
+    background-color: var(--hcolour);
+    border-style: none;
+    width: 100%;
+}
+@media screen and (max-width: 450px) {
+    .CRF-failure{font-size: 4vw;}
+    .CRF-container{font-size: 4vw;}
+    .CRF-table{font-size: 4vw;}
+    .CRF-body{
+        font-size: 4vw;
+        height: 90vw;
+    }
+}

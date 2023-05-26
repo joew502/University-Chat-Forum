@@ -1,0 +1,73 @@
+.UP_tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: rgb(43, 106, 169);
+    margin-bottom: 10px;
+    margin-top: 7vw;
+}
+
+.UP_tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    color: white;
+}
+
+.UP_tab button:hover {
+    background-color: rgb(73, 140, 208);
+}
+
+.UP_tab button.active {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.UP_tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(43, 106, 169);
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+#UP_account>button {
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.UP_title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.UP_progress {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: baseline;
+    padding-bottom: 15px;
+}
+.up_find_user_button{
+    position: relative;
+    right: 0;
+}
+
+#UP_progressbar {
+    margin-left: 10px;
+    margin-right: 10px;
+}

@@ -1,0 +1,38 @@
+.register-status-container{
+    display: flex;
+}
+
+.register-failure{
+    text-align: center;
+    margin: auto;
+    border-width: 2px;
+    border-color: #c81919;
+    background-color: #d07171;
+    border-style: solid;
+    border-radius: 1vw;
+    color: #c81919;
+    font-size: 3vw;
+    padding: 1vw;
+    display: inline-block;
+    width: auto;
+}
+
+.register-success{
+    text-align: center;
+    margin: auto;
+    border-width: 2px;
+    border-color: #21bc21;
+    background-color: #9dde9d;
+    border-style: solid;
+    border-radius: 1vw;
+    color: #21bc21;
+    font-size: 3vw;
+    padding: 1vw;
+    display: inline-block;
+    width: auto;
+}
+@media screen and (max-width: 450px) {
+    .login-content-table{ font-size: 5vw;}
+    .login-input-field{ font-size: 5vw;}
+    .login-input-button{ font-size: 5vw;}
+}

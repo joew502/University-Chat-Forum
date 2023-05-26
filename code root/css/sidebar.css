@@ -1,0 +1,132 @@
+/* The sidebar menu container*/
+.sidebar {
+    height: calc(100% - 5vw);
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Stay on top */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff; /* Black*/
+    padding-top: 5vw; /* Place content 5vw from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+    border-style: solid;
+    border-width: 0;
+    border-right-width: 1px;
+    border-color: #2b6aa9;
+    right: 5vw;
+    font-size: 2vw;
+    margin-left: 0;
+    text-overflow: clip;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+/* The sidebar links */
+.sidebar a {
+    padding: 1vw 2vw;
+    text-decoration: none;
+    color: #2b6aa9;
+    display: block;
+    transition: 0.3s;
+}
+.sidebar .SB-dropdown-container a{
+    padding: 0.2vw 1vw 0.2vw 2vw;
+}
+
+#SB_srlldv{
+    padding-bottom: 10vw;
+}
+
+/* The close button */
+.SB-closebtn {
+    position: absolute;
+    text-align: right;
+    top: 0;
+    right: 0;
+    font-size: 2vw;
+}
+
+/* The button used to open the sidebar */
+.SB-openbtn {
+    font-size: 2vw;
+    padding-bottom: 0vw;
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #2b6aa9;
+    /*padding: 1vw 1vw;*/
+    border: none;
+    position:  fixed;
+    top: 0;
+    left: 0;
+    height: 5vw;
+}
+
+/* Expanded drop down menu */
+.SB-dropdown-container {
+    display: none;
+    background-color: #ffffff;
+    padding-left: 1vw;
+
+}
+
+/* Button to show drop down */
+.SB-dropdown-btn {
+    padding: 2vw;
+    padding-bottom: 0.4vw;
+    text-decoration: none;
+    color: #2b6aa9;
+    display: block;
+    border: none;
+    background: none;
+    width:100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    font: 2vw Arial;
+}
+
+/* Dropdown button when active */
+.SB-active {
+    background-color: #ffffff;
+    color: #2b6aa9;
+    font: 400 2vw Arial;
+}
+
+/* Links to blocks (Shown in drop down menu)*/
+.SB-block-links {
+    text-align: left;
+    font: 400 1.5vw Arial;
+}
+
+.SB-academic-hall-link{
+    font-size: 2vw;
+    text-align: center;
+    color: white;
+    background-color: #c81919;
+}
+.SB-society-hall-link{
+    font-size: 2vw;
+    text-align: center;
+    color: white;
+    background-color: #e7a72a;
+}
+.SB-community-hall-link{
+    font-size: 2vw;
+    text-align: center;
+    color: white;
+    background-color: #1a8ee7;
+}
+
+/* If height is less than 450px, change the font-size of the sidenav*/
+@media screen and (max-width: 450px) {
+    .sidebar {padding-top: 5vw;}
+    .sidebar {font-size: 5vw;}
+    .SB-dropdown-btn {font-size: 4vw;}
+    .SB-closebtn {font-size: 4vw;}
+    .SB-openbtn {font-size: 4vw;}
+    .SB-block-links {font-size: 3vw;}
+    .SB-academic-hall-link{font-size: 3vw;}
+    .SB-society-hall-link{font-size: 3vw;}
+    .SB-community-hall-link{font-size: 3vw;}
+}
